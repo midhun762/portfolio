@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon"href="resume.png">
+
+ 
+    <link rel="stylesheet" href="portfoliostyle.css"type="text/css">
+    <script src="script.js">
+        
+    </script>
+
+</head>
+<body class="body-class">
+   
+
+<header>
+
+    <div class="user">
+        <img class="photographics"src="photo.jpg" alt="not image available">
+        
+        <h3 class="name-user">MIDHUN PS</h3>
+        <p class="post">Software Developer</p>
+        
+    </div>
+
+    <nav class="navigation-bar">
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">Personal Details</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#portfolio">Languages</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+            <li><a href="#closing"onclick="closing()">Exit</a></li>
+
+        </ul>
+    </nav>
+    
+</header>
+<div id="menu" class="fa-solid fa-bars"></div>
+
+<section class="home" id="home">
+    <h1>I am MIDHUN</h1>
+    <p>i am a web developer,i have knowledge in AWS,javascript,CSS,and node,react
+    </p>
+    <a href="#about"><button class="button1">about me </button></a>
+    <section id="closing">
+    
+    </section>
+
+</section>
+
+<section class="about" id="about">
+
+<h1 class="heading"> <span>about</span> me </h1>
+
+<div class="row">
+
+    <div class="info">
+        <h3> <span> Name : </span> Midhun Ps</h3>
+        <h3> <span> Age : </span> 25 </h3>
+        <h3> <span> Qualification : </span> DIPLOMA IN CS </h3>
+        <h3> <span> Designation : </span> Web Developer </h3>
+        <h3> <span> Native Language : </span> Malayalam </h3>
+        <a href="resume.pdf"><button class="button1"> Download Resume</button></a>
+      
+    </div>
+
+    
+</div>
+
+</section>
+
+<section class="hobbies" id="hobbies">
+
+<h1 class="heading"> my <span>Hobbies</span> </h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>1</span>
+        <h3>Cooking</h3>
+        <img src="cooking.png"class="entertainment3">
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2</span>
+        <h3>Waching TV</h3>
+        <img src="tv.png"class="entertainment2">
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>3</span>
+        <h3>Traveling</h3>
+        <img src="trip.png"class="entertainment3">
+    </div>
+</section>
+<section class="portfolio" id="portfolio">
+
+<h1 class="heading"> <span>Languages Known</span> </h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <img class="entertainment4"src="malayalam.jpg" alt="">
+    </div>
+
+<div class="box">
+        <img src="tamil.jpg" alt="">
+    </div>
+
+    <div class="box">
+        <img src="english.webp" alt="">
+    </div>
+
+    
+    </div>
+
+</div>
+
+</section>
+
+<section class="contact" id="contact">
+
+<h1 class="heading"> <span>contact</span> me </h1>
+
+<div class="row">
+
+    <div class="content">
+
+        <h3 class="title">contact info</h3>
+
+        <div class="info">
+            <h3> <i class="fas fa-email"> midhunshoranur12@gmail.com </i></h3>
+            <h3> <i class="fas fa-phone">9020984739</i></h3>
+            <h3> <i class="fas fa-map-marker-alt"> Palakkad,Kerala,Pin:679523</i> </h3>
+            
+
+        </div>
+
+    </div>
+
+    <form class="form1">
+
+        <input type="text" placeholder="Your Name" class="box">
+        <input type="email" placeholder="Email Id" class="box">
+        <input type="text" placeholder="Subject" class="box">
+        <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="Type Your Message Here"></textarea>
+        <button type="submit" class="button1"><a href="mailto:EMAILADDRESS"> send </a><i class="fas fa-paper-plane"></i> </button>
+
+    </form>
+</div>
+</section>
+<a href="#home" class="top">
+    <img src="calculator.webp" alt="no image">
+</a>
+<script>
+
+    function closing(){
+        window.close()}
+ </script>
+</body>
+</html>

@@ -1,0 +1,500 @@
+.body-class
+{
+
+    background: #333;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+:root{
+    color: rgb(167, 167, 167);
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 57%, rgba(0,212,255,1) 100%);
+}
+
+*{
+   
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border:none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+*::selection{
+    background:var(--white);
+    color:#333;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar{
+    width:1.4rem;
+}
+
+html::-webkit-scrollbar-track{
+    background:#222;
+}
+
+
+body{
+    
+    overflow-x: hidden;
+    padding-left: 35rem;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+section{
+    min-height: 100vh;
+    padding:1rem;
+}
+
+.button1{
+    padding:.7rem 3rem;
+    background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 5px #eee;
+    border-radius: 10px;
+    display: block;
+    border-radius: 2rem;
+    font-weight: bold;
+    
+
+}
+.form1{
+    background-color: black;
+    border-radius: 3rem;
+    opacity: .6;
+}
+.button1:hover{
+    background-position: right center; 
+            color: #fff;
+            text-decoration: none;
+}
+
+.button1 i{
+    padding:0 .5rem;
+    font-size: 1.8rem;
+}
+
+.button1:hover{
+    background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 57%, rgba(0,212,255,1) 100%);
+}
+header .user img{
+    height:200px;
+    width: 180px;
+   object-fit: cover;
+    border-radius: 43%;
+    margin-bottom: 1rem;
+}
+
+.heading{
+    text-align: center;
+    margin:0 6rem;
+    font-size: 4rem;
+    padding:1rem;
+    border-bottom: .1rem solid #fff4;
+    color:#fff;
+}
+
+
+header{
+    position: fixed;
+    top:0; left:0;
+    z-index: 1000;
+    height:100%;
+    width: 25rem;
+    background: linear-gradient(90deg, rgba(25,22,65,1) 0%, rgba(1,1,17,1) 57%, rgba(50,62,64,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+
+
+header .user .name-user{
+    font-size: 3.5rem;
+    color:#fff;
+}
+.post{
+    font-size: 1.5rem;
+    color:#eee;
+}
+
+header .navigation-bar{
+    width:100%;
+}
+
+header .navigation-bar ul{
+    list-style: none;
+    padding:1rem 3rem;
+}
+
+
+header .navigation-bar ul li a{
+    padding:1rem;
+    margin:1.5rem 0;
+    background-image: linear-gradient(to right, #AA076B 0%, #61045F  51%, #AA076B  100%);
+    color:#fff;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 1rem;
+}
+
+
+header .navigation-bar ul li a:hover{
+    background:var(--white)
+}
+
+#menu{
+    position: fixed;
+    top:2rem; right:2rem;
+    background:rgb(216, 6, 6);
+    color:#fff;
+    cursor: po;
+    font-size: 2.5rem;
+    padding:1rem 1.5rem;
+    z-index: 1000;
+    display: none;
+}
+.user:hover{
+    background: linear-gradient(90deg, rgba(25,22,65,1) 0%, rgba(6,6,75,1) 25%, rgba(38,37,57,1) 53%, rgba(50,62,64,1) 100%);
+border-radius: 30%;
+
+}
+
+
+.about .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:1rem 0;
+}
+
+.about .row .info{
+    flex:1 1 48rem;
+    padding:2rem 1rem;
+    padding-left: 6rem;
+}
+
+.about .row .info h3{
+    font-size: 2rem;
+    color:var(--yellow);
+    padding:1rem 0;
+    font-weight: normal;
+}
+
+.about .row .info h3 span{
+    color:#eee;
+    padding:0 .5rem;
+}
+
+.about .row .counter{
+    flex:1 1 48rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about .row .counter .box{
+    width:20rem;
+    background:#222;
+    text-align: center;
+    padding: 2rem;
+    margin:2rem;
+}
+
+.about .row .counter .box span{
+    font-size: 4rem;
+    color:var(--yellow);
+}
+
+.about .row .counter .box h3{
+    font-size: 2rem;
+    color:#fff;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding:100px;
+    border-radius: 5rem;
+}
+
+.home h3{
+    font-size: 2.5rem;
+    color:#fff;
+    margin-top: 200px;
+}
+
+.home h1{
+    font-size:5rem;
+    color:#fff;
+}
+
+.home h1 span{
+    color:var(--yellow);
+}
+
+.home p{
+    font-size:2rem;
+    color:#eee;
+    padding: 1rem 0;
+}
+
+
+.hobbies .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:1rem 0;
+    padding-left: 3rem;
+}
+
+.hobbies .box-container .box{
+    width:27rem;
+    margin:4rem 1rem;
+    padding-left: 4rem;
+    border-left: .2rem solid #fff;
+    position: relative;
+}
+
+.hobbies .box-container .box span{
+    font-size: 1.3rem;
+    background:#222;
+    color:#fff;
+    border-radius: 5rem;
+    padding:.5rem 2.5rem;
+}
+
+.hobbies .box-container .box h3{
+    font-size: 2rem;
+    color:#fff;
+    padding-top: 1.5rem;
+}
+box:hover{
+    background-color: #ff0000;
+}
+
+.hobbies .box-container .box p{
+    font-size: 1.4rem;
+    color:#eee;
+    padding: 1rem 0;
+}
+
+
+.portfolio .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2rem 0;
+}
+
+.portfolio .box-container .box{
+    height: 20rem;
+    width:26rem;
+    border-radius: 1rem;
+    margin:2rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.portfolio .box-container .box img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+
+.portfolio .box-container .box:hover img{
+    transform: scale(1.2);
+}
+
+.contact .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.hobbies .box-container .box i{
+    position: absolute;
+    top:-1.5rem; left:-2.5rem;
+    height:5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color:#fff;
+
+}
+
+
+.contact .row .content{
+    flex:1 1 30rem;
+    padding:4rem;
+    padding-bottom: 0;
+}
+
+.contact .row form{
+    flex:1 1 45rem;
+    padding:2rem;
+    margin:2rem;
+    margin-bottom: 4rem;
+}
+
+.contact .row form .box{
+    padding:1.5rem;
+    margin:1rem 0;
+    background:#3333;
+    color:#fff;
+    text-transform: none;
+    font-size: 1.7rem;
+    width:100%;
+}
+
+.contact .row form .box::placeholder{
+    text-transform: capitalize;
+}
+
+.contact .row form .message{
+    height: 15rem;
+    resize: none;
+}
+
+.contact .row .content .title{
+    text-transform: uppercase;
+    color:#fff;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.contact .row .content .info h3{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color:#eee;
+    padding:1rem 0;
+    font-weight: normal;
+}
+
+.contact .row .content .info h3 i{
+    padding-right: 1rem;
+    color:var(--yellow);
+}
+
+.top{
+    position: fixed;
+    bottom:7.5rem; right: 2rem;
+    z-index: 100;
+    display: none;
+}
+
+
+.entertainment{
+    width:30rem;
+    height: 20rem;
+}
+.entertainment2{
+    width: 25rem;
+    height: 20rem;
+}
+
+.entertainment3{
+    width: 22rem;
+    height: 20rem;
+}
+
+.user.entertainment:hover img{
+    transform: scale(1.2);
+}
+@media (max-width:1200px){
+
+    html{
+        font-size: 55%;
+    }
+
+    .home{
+        padding:1rem 4rem;
+    }
+
+}
+
+@media (max-width:991px){
+
+   header{
+       left:-120%;
+   }
+
+   #menu{
+       display: block;
+   }
+
+   header.toggle{
+    left:0%;
+   }
+
+   body{
+       padding:0;
+   }
+
+}
+
+@media (max-width:768px){
+
+    html{
+        font-size: 50%;
+    }
+ 
+ }
+
+@media (max-width:400px){
+
+    header{
+        width: 100vw;
+    }
+
+    .heading{
+        margin:0 3rem;
+    }
+
+    .about .row .counter .box{
+        width: 100%;
+    }
+ 
+    .hobbies .box-container .box{
+        width:100%;
+    }
+
+    .portfolio .box-container .box{
+        width:100%;
+    }
+
+    .contact .row form{
+        margin:30rem 0;
+    }
+    
+ 
+.name-user
+{
+    padding-top: 100px;
+}
+
+}
+.hobbies .box-container .box:hover img{
+    transform: scale(1.2);
+}
